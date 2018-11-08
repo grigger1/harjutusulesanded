@@ -4,7 +4,6 @@ import random
 elud = 3
 
 pakutud = []
-pakutud_print = ""
 
 number = round(92 * random.random())
 sõnalist = open("sõnad.txt", "r", encoding = "utf8")
@@ -24,8 +23,7 @@ while elud > 0:
     pakutud += täht
     olemas = 0
 
-    pakutud_print = pakutud_print + täht
-    print("\npakutud:", sorted(pakutud_print))
+    print("\npakutud:", sorted(pakutud))
 
     for char in sõna:
         if char in pakutud:
