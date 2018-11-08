@@ -52,4 +52,4 @@ while elud > 0:
             else:
                 print("Seda tähte sõnas ei ole. \nSa saad", elud - 1, "korda veel valesti panna.")
 
-print("Mäng sai läbi.")
+print("\nMäng sai läbi.")
