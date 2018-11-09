@@ -1,7 +1,7 @@
 # tuleb teha poomismäng
 import random
 
-elud = 3
+elud = 5
 
 pakutud = []
 
