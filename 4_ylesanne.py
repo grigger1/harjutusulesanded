@@ -1,11 +1,11 @@
 from collections import Counter
 
-sõnad = [(input("Kopeeri tekst."))]
+sõnad = input("Kopeeri tekst.")
 
-sõnad = sõnad.sort
+list_of_words = sõnad.lower.split(" "or "." or ",")
 
-while not sõnad == []:
+printable = Counter(list_of_words)
 
-    word = sõnad [0]
-    print(word, ":", Counter.values(word in sõnad) + "\n")
-    sõnad.remove()[0:]
+
+for word in 
+    print()
